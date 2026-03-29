@@ -80,7 +80,7 @@ impl<T> Pipe for T {}
 
 #[cfg(test)]
 mod tests {
-    use super::{Analyzer, AnalyzeError, ParallelTextAnalyzer};
+    use super::{AnalyzeError, Analyzer, ParallelTextAnalyzer};
 
     #[test]
     fn counts_text_and_words() {
